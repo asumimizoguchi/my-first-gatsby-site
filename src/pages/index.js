@@ -13,7 +13,7 @@ export default function Home({ data }) {
       <section　className = {styles.header}>
         <div>
           <h1>Homepage</h1>
-          <Link className={styles.btn} to="/projects">View recipe</Link>
+          <Link className={styles.btn} to="/recipes">View recipe</Link>
         </div>
       </section>
       

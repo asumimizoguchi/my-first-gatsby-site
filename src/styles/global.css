@@ -47,11 +47,8 @@ body{
 p {
     margin-top: 0px;
     line-height: 1.5em;
+    text-align: center;
 }
-
-
-
-
 
 /* latout & nav */
 .layout {
@@ -75,12 +72,11 @@ nav a {
     border-bottom: 3px solid transparent;
 }
 nav a:hover {
-    border-color: white;
+    border-color: orangered;
 }
 fotter p{
     text-align: center;
-    color: #bbb;
-    margin: 10px auto;
+    margin: 10px auto; 
 }
 
 element.style {
