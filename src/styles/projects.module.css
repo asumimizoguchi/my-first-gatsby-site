@@ -1,0 +1,11 @@
+.recipe > h1{
+    text-align: center;
+}
+.recipe > h2{
+    font-size: 3em;
+    margin-top: 80px;
+}
+.recipe > h3{
+    font-size: 2em;
+    font-weight: 400;
+}

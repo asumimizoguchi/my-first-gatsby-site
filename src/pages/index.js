@@ -1,18 +1,33 @@
-// Step 1: Import React
-import * as React from 'react'
+import { graphql, Link } from "gatsby"
+import * as React from "react"
+import Layout from '../components/Layout'
+import * as styles from '../styles/home.module.css'
 
-// Step 2: Define your component
-const IndexPage = () => {
+// main page of recipe site
+export default function Home({ data }) {
+  console.log(data)
   return (
-    <main>
-      <h1>Welcome to my Gatsby site!</h1>
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-    </main>
+    
+    <Layout>
+      
+      <section　className = {styles.header}>
+        <div>
+          <h1>Homepage</h1>
+          <Link className={styles.btn} to="/projects">View recipe</Link>
+        </div>
+      </section>
+      
+    </Layout>
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home Page</title>
-
-// Step 3: Export your component
-export default IndexPage
+export const query = graphql /*
+  query SiteInfo {
+    site {
+      siteMetadata {
+        description
+        title 
+      }
+    }
+  }
+*/

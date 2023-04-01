@@ -1,10 +1,18 @@
 /**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
+ */
+
+/**
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  /* Your site config here*/
+  plugins: [],
   siteMetadata: {
-    title: `What would you like to call your site?✔ · My First Gatsby Site`,
-    siteUrl: `https://www.yourdomain.tld`
-  },
-  plugins: ["gatsby-plugin-google-gtag"]
+    title: "UMAMI",
+    description: "Recipe site",
+    copyright: "This website is copyright 2022 UMAMI" 
+  }
 };
