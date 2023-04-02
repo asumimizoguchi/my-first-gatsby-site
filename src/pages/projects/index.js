@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../../components/Layout"
 import Searchbar from "../../components/Searchbar"
-import * as styles from '../../styles/recipes.module.css'
+import * as styles from '../../styles/projects.module.css'
 
 //This is Recipes pages
-export default function Recipes(){
+export default function Projects(){
     return (
         
         <Layout>
