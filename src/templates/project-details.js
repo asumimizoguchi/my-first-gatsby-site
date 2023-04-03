@@ -1,0 +1,42 @@
+import React from 'react'
+import Layout from '../components/Layout'
+import Img from 'gatsby-image'
+import * as styles from '../styles/project-details.module.css'
+import { graphql } from 'gatsby'
+
+export default function projectDetails({ data }) {
+    const { html } = data.markdownRemark
+    const { title, Difficulty, featuredImg } = data.markdownRemark.frontmatter
+    
+    return (
+        <Layout>
+            <div className={styles.details}>
+                <h2>{title}</h2>
+                <h3>{Difficulty}</h3>
+                <div className={styles.featured}>            
+                    <Img fluid={featuredImg.childImageSharp.fluid} /> 
+                </div>
+                <div className={styles.html} dangerouslySetInnerHTML={{ __html: html }} />
+            </div>
+        </Layout>
+    )
+}
+
+export const query = graphql`
+    query ProjectDetails($slug: String) {
+        markdownRemark(frontmatter: {slug: {eq: $slug}}) {
+            html
+            frontmatter {
+                Difficulty
+                title
+                featuredImg {
+                    childImageSharp {
+                        fluid {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
+    }
+`

@@ -13,11 +13,15 @@ export default function Home({ data }) {
     <Layout>
       
       <section className = {styles.header}>
+        <div><Img fluid={data.file.childImageSharp.fluid} /></div>
         <div>
-          <h1>Homepage</h1>
+          <h1>Super easy vegetarian pasta bake</h1>
+          <p>
+            A wholesome pasta bake is the ultimate comfort food. This delicious bake is super quick to prepare and an ideal midweek meal for all the family.
+          </p>
           <Link className={styles.btn} to="/projects">View recipe</Link>
         </div>
-        <Img fluid={data.file.childImageSharp.fluid} />
+
       </section>
       
     </Layout>
@@ -26,7 +30,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query Banner {
-    file(relativePath: {eq: "quiche.png"}) {
+    file(relativePath: {eq: "veggie-pasta-bake-hero.png"}) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
