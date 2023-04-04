@@ -14,6 +14,8 @@ export default function Projects({ data }){
     return (
         
         <Layout>
+        <div className={styles.brownieImg}><Img fluid={data.file.childImageSharp.fluid} /></div>
+      
         <div className={styles.recipe}>
             <h1>Recipes</h1>
             <div className={styles.projects}>
@@ -60,5 +62,15 @@ query ProjectsPage {
         contact
       }
     }
+
+    file(relativePath: {eq: "vegan-brownies-hero.png"}) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+
   }
 `

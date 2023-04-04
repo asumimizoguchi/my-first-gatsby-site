@@ -1,10 +1,19 @@
 .header{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 40px;
     align-items: center;
 }
 
+.homeImageText {
+    z-index: 9;
+    margin: 30px;
+
+}
+.homeImage{
+    margin-left: calc(-50vw + 50%);
+    width: 100vw;
+}
 html, body {
     min-height: 50px;
 }

@@ -13,9 +13,10 @@ export default function Home({ data }) {
     <Layout>
       
       <section className = {styles.header}>
-        <div><Img fluid={data.file.childImageSharp.fluid} /></div>
+        
+        <div　className = {styles.homeImage}><Img fluid={data.file.childImageSharp.fluid} /></div>
         <div>
-          <h1>Super easy vegetarian pasta bake</h1>
+          <h1 className = {styles.homeImageText}>Super easy vegetarian pasta bake</h1>
           <p>
             A wholesome pasta bake is the ultimate comfort food. This delicious bake is super quick to prepare and an ideal midweek meal for all the family.
           </p>
