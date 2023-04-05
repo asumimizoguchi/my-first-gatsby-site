@@ -13,18 +13,19 @@ export default function Articles({ data }){
     return (      
         <Layout>
         <div>
-            <h1 className={styles.ars}>articles</h1>
-            <div>
+            <h1 className={styles.ars}>Articles</h1>
+            <div className={styles.projects}>
                 {articles.map(article => (
                     <Link to = {"/articles/" + article.frontmatter.slug} key={article.id}>
                         <div>
-                            {/* <Img fluid={article.frontmatter.thumb1.childImageSharp.fluid} /> */}
                             <h3>{ article.frontmatter.title }</h3>
+                            {/* <Img fluid={article.frontmatter.thumb.childImageSharp.fluid} /> */}
                             <p>{ article.frontmatter.stack }</p>
                         </div>
                     </Link>
                 ))}
             </div>
+              
             <p>Tell us what you think at { contact } </p>
         </div>
         </Layout>
@@ -33,14 +34,14 @@ export default function Articles({ data }){
 
 // export page query
 export const query = graphql`
-query ArticlePage {
+query ArticlesPage {
     articles: allMarkdownRemark(sort: {frontmatter: {title: ASC}}) {
       nodes {
         frontmatter {
           slug
           stack
           title
-          thumb1 {
+          thumb {
             childImageSharp {
               fluid {
                 ...GatsbyImageSharpFluid

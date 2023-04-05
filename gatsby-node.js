@@ -23,3 +23,27 @@ exports.createPages = async ({ graphql, actions }) => {
     })
 
 }
+
+exports.createPages2 = async ({ graphql, actions }) => {
+
+  const { data1 } = await graphql(`
+    query Articles {
+      allMarkdownRemark{
+        nodes {
+          frontmatter {
+            slug
+          }
+        }
+      }
+    }
+  `)
+
+  data1.allMarkdownRemark.nodes.forEach(node => {
+    actions.createPage2({
+      path: '/artciles/' + node.frontmatter.slug,
+      component: path.resolve('./src/templates/article-details.js'),
+      context: { slug: node.frontmatter.slug }
+    })
+  })
+
+}

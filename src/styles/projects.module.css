@@ -22,13 +22,12 @@
 
 }
 .projects h3 {
-    text-align: center;
-    margin: 20px auto 0px;
+    /* text-align: center;  */
+    margin: 20px auto 0px; 
     font-weight: 500;
 }
 .projects p {
     color: rgba(0, 128, 100, 0.922);
-    margin-top: 4px;
 }
 .brownieImg{
     margin-left: calc(-50vw + 50%);

@@ -5,9 +5,8 @@ slug: super-easy-vegetarian-pasta-bake
 Difficulty: Easy
 thumb: ../images/thumbs/veggie-pasta.png
 featuredImg: ../images/featured/veggie-pasta.png
+comment: A wholesome pasta bake is the ultimate comfort food. This delicious bake is super quick to prepare and an ideal midweek meal for all the family.
 ---
-
-A wholesome pasta bake is the ultimate comfort food. This delicious bake is super quick to prepare and an ideal midweek meal for all the family.
 
 ### Recipe instruction
 

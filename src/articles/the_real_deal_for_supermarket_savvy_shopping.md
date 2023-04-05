@@ -2,7 +2,8 @@
 title: The real deal for supermarket savvy shopping
 stack: VIEW ARTICLE >
 slug: the-real-deal-for-supermarket-savvy-shopping
-thumb1: ../images/thumbs1/supermarket-savvy.png
+thumb: ../images/thumbs1/supermarket-savvy.png
+featuredImg: ../images/featured1/supermarket-savvy.png
 ---
 
 This may not surprise you - but your supermarket is a hot bed of marketing mayhem, designed to improve their profit and to encourage the consumer to spend more than they intended. The tricks that all supermarkets employ are sometimes sensible ploys that any retailer should do to improve sales - but some may be more subtle and less obvious than you might think.

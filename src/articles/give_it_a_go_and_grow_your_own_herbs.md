@@ -2,7 +2,8 @@
 title: Give it a go and grow your own herbs
 stack: VIEW ARTICLE >
 slug: give-it-a-go-and-grow-your-own-herbs
-thumb1: ../images/thumbs1/home-grown-herbs.png
+thumb: ../images/thumbs1/home-grown-herbs.png
+featuredImg: ../images/featured1/home-grown-herbs.png
 ---
 
 There's nothing like having your own supply of fresh herbs, readily available and close at hand to use while cooking. Whether you have a large garden or a small kitchen window sill, there's always enough room for something home grown.

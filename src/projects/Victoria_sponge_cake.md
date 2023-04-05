@@ -5,9 +5,8 @@ slug: victoria-sponge-cake
 Difficulty: Easy
 thumb: ../images/thumbs/victoria.png
 featuredImg: ../images/featured/victoria.png
+comment: A traditional Victoria sponge cake, perfect for any afternoon with a cup of tea.
 ---
-
-A traditional Victoria sponge cake, perfect for any afternoon with a cup of tea.
 
 ### Recipe instruction
 

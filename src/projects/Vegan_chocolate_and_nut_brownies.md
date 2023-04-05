@@ -5,9 +5,8 @@ slug: vegan-chocolate-and-nut-brownies
 Difficulty: Medium
 thumb: ../images/thumbs/brownies.png
 featuredImg: ../images/featured/brownies.png
+comment: Scrumptious vegan chocolate brownies that are rich, fudgy, and nutty. These delights have a surprise hint of coconut making them the perfect indulgence. Serve warm with a little vanilla dairy-free ice cream!
 ---
-
-Scrumptious vegan chocolate brownies that are rich, fudgy, and nutty. These delights have a surprise hint of coconut making them the perfect indulgence. Serve warm with a little vanilla dairy-free ice cream!
 
 ### Recipe instruction
 

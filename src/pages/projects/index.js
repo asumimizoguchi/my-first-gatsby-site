@@ -22,8 +22,8 @@ export default function Projects({ data }){
                 {projects.map(project => (
                     <Link to = {"/projects/" + project.frontmatter.slug} key={project.id}>
                         <div>
-                            <Img fluid={project.frontmatter.thumb.childImageSharp.fluid} />
                             <h3>{ project.frontmatter.title }</h3>
+                            <Img fluid={project.frontmatter.thumb.childImageSharp.fluid} />
                             <p>{ project.frontmatter.stack }</p>
                         </div>
                     </Link>
@@ -38,8 +38,9 @@ export default function Projects({ data }){
 
 // export page query
 export const query = graphql`
+
 query ProjectsPage {
-    projects: allMarkdownRemark(sort: {frontmatter: {title: ASC}}) {
+  projects: allMarkdownRemark(sort: {frontmatter: {title: ASC}}) {
       nodes {
         frontmatter {
           slug
@@ -70,7 +71,7 @@ query ProjectsPage {
         }
       }
     }
-
-
   }
+
+  
 `

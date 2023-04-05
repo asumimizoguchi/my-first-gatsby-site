@@ -5,9 +5,8 @@ slug: borscht-with-pork-ribs
 Difficulty: Medium
 thumb: ../images/thumbs/borscht-with-pork-ribs.png
 featuredImg: ../images/featured/borscht-with-pork-ribs.png
+comment: Every Ukrainian family has a modification; with beans, without cabbage, etc. They are all valid though, there’s no unified ‘correct’ recipe. The one you are about to read and cook is borscht with pork ribs. You’ll appreciate its taste and flavor. You’ll connect and feel a true Ukrainian soul while savoring!
 ---
-
-Every Ukrainian family has a modification; with beans, without cabbage, etc. They are all valid though, there’s no unified ‘correct’ recipe. The one you are about to read and cook is borscht with pork ribs. You’ll appreciate its taste and flavor. You’ll connect and feel a true Ukrainian soul while savoring!
 
 ### Recipe instruction
 

@@ -5,9 +5,8 @@ slug: deep-mediterranean-quiche
 Difficulty: Medium
 thumb: ../images/thumbs/quiche.png
 featuredImg: ../images/featured/quiche.png
+comment: An Italian inspired quiche with sun dried tomatoes and courgette. A perfect light meal for a summer's day.
 ---
-
-An Italian inspired quiche with sun dried tomatoes and courgette. A perfect light meal for a summer's day.
 
 ### Recipe instruction
 

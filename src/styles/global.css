@@ -25,15 +25,18 @@ p.magazine {
 
 .searchDiv {
     width: 100vw;
+    height: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
     align-items: center;
+    border-bottom: 1px solid rgb(207, 207, 207);
 
 }
 
 .searchBar {
-    margin-top: 30px;
+    font-size: 0.875rem;
+    margin-top: 1;
     width: 320px;
     height: 37px;
     border-color: rgb(172, 172, 172);
@@ -48,7 +51,7 @@ p.magazine {
 }
 
 .login {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-right: 70px;
     text-align: right;
     font-size: 15px;
@@ -56,7 +59,7 @@ p.magazine {
 }
 
 .language {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 40px;
     width: 100px;
     font-size: 15px;
@@ -101,7 +104,6 @@ p {
     margin: 0 auto;
 }
 nav {
-
     display: grid;
     background-color: white;
     grid-template-columns: 1fr 1fr;

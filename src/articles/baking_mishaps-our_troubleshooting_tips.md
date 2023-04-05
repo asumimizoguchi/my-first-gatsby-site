@@ -2,7 +2,8 @@
 title: Baking mishaps - our troubleshooting tips
 stack: VIEW ARTICLE >
 slug: baking-mishaps-our-troubleshooting-tips
-thumb1: ../images/thumbs1/home-grown-herbs.png
+thumb: ../images/thumbs1/home-grown-herbs.png
+featuredImg: ../images/featured1/home-grown-herbs.png
 ---
 
 You follow the recipe, you weigh all your ingredients, you use the right oven temperature and you take your time and yet still, your baking comes out with a soggy bottom, fails to rise or just tastes plain horrible. We have come up with a list of the most frustrating baking problems and the techniques you can use to try and avoid them.

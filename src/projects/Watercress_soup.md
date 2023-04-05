@@ -5,9 +5,8 @@ slug: watercress-soup
 Difficulty: Easy
 thumb: ../images/thumbs/watercress.png
 featuredImg: ../images/featured/watercress.png
+comment: A wonderfully simple and light soup, making the most of seasonal, local produce.Prepare the vegetables by peeling and chopping the potatoes, finely chopping the onions, leeks and garlic.
 ---
-
-A wonderfully simple and light soup, making the most of seasonal, local produce.Prepare the vegetables by peeling and chopping the potatoes, finely chopping the onions, leeks and garlic.
 
 ### Recipe instruction
 

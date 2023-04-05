@@ -2,7 +2,8 @@
 title: The Umami guide to our favorite mushrooms
 stack: VIEW ARTICLE >
 slug: the-umami-guide-to-our-favourite-mushrooms
-thumb1: ../images/thumbs1/mushrooms.png
+thumb: ../images/thumbs1/mushrooms.png
+featuredImg: ../images/featured1/mushrooms.png
 ---
 
 We think mushrooms are one of the most enjoyable ingredients to cook with. There are plenty of edible varieties to try, each with their own distinctive shape, size, and taste. And with curious names such as chanterelle, the gypsy, horn of plenty, or hen of the woods, who wouldn't want to know more about cooking with the mighty mushroom?

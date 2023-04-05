@@ -5,9 +5,8 @@ slug: fiery-chili-sauce
 Difficulty: Easy
 thumb: ../images/thumbs/chili-sauce.png
 featuredImg: ../images/featured/chili-sauce.png
+comment: A rich and fiery chili sauce. Take care when handling chili peppers. And serve sparingly!
 ---
-
-A rich and fiery chili sauce. Take care when handling chili peppers. And serve sparingly!
 
 ### Recipe instruction
 

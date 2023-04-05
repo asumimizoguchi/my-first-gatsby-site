@@ -2,7 +2,8 @@
 title: Give your oatmeal the ultimate makeover
 stack: VIEW ARTICLE >
 slug: give-your-oatmeal-the-ultimate-makeover
-thumb1: ../images/thumbs1/oatmeal-fruit-syrup-topping.png
+thumb: ../images/thumbs1/oatmeal-fruit-syrup-topping.png
+featuredImg: ../images/featured1/oatmeal-fruit-syrup-topping.png
 ---
 
 It is vegan, gluten-free, low in fat, high in fiber, and can even lower cholesterol - but oatmeal is boring, right? Well, before you write off that boring jar of oats, you might want to take inspiration from our topping ideas that will take your oatmeal from bland to creatively delicious in just a few minutes.

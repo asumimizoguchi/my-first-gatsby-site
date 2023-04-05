@@ -2,7 +2,8 @@
 title: Dairy-free and delicious milk chocolate
 stack: VIEW ARTICLE >
 slug: dairy-free-and-delicious-milk-chocolate
-thumb1: ../images/thumbs1/vegan-chocolate.png
+thumb: ../images/thumbs1/vegan-chocolate.png
+featuredImg: ../images/featured1/vegan-chocolate.png
 ---
 
 The calendar is full of excuses for chocolate-lovers to indulge, from religious festivals to birthdays - and even World Chocolate Day on the 7th July. But for those who are vegan, or on dairy-free diets, there is no need to miss out, because there are plenty of delicious vegan chocolate varieties on offer.

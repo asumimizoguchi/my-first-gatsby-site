@@ -8,12 +8,27 @@
 .homeImageText {
     z-index: 9;
     margin: 30px;
-
+    position: absolute;
+    color: white;
+    font-family: "Scope One",Georgia,serif;
+    font-size: 1.777em;
+    font-weight: 400;
+    line-height: 1.2em;
+    left: 20; 
+    top: 0;
 }
 .homeImage{
     margin-left: calc(-50vw + 50%);
     width: 100vw;
+    position: relative;
 }
+.homeImage p{
+    position: absolute;
+    top: 0;
+    left: 20;
+    color: white;
+}
+
 html, body {
     min-height: 50px;
 }
@@ -33,5 +48,8 @@ html, body {
     border-radius: 10px;
     margin-top: 20px;
     font-weight: 500;
-    color: black;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 5%;
 }

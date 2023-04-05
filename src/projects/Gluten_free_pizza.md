@@ -5,9 +5,8 @@ slug: gluten-free-pizza
 Difficulty: Medium
 thumb: ../images/thumbs/pizza.png
 featuredImg: ../images/featured/pizza.png
+comment: A gorgeous and simple gluten free pizza, with deliciously indulgent mozzarella and Parma ham. Can easily be vegetarian by leaving out the ham.
 ---
-
-A gorgeous and simple gluten free pizza, with deliciously indulgent mozzarella and Parma ham. Can easily be vegetarian by leaving out the ham.
 
 ### Recipe instruction
 

@@ -5,9 +5,8 @@ slug: thai-green-curry
 Difficulty: Medium
 thumb: ../images/thumbs/thai-green-curry.png
 featuredImg: ../images/featured/thai-green-curry.png
+comment: A quick and easy version of the classic Thai green curry. Perfect for a midweek meal!
 ---
-
-A quick and easy version of the classic Thai green curry. Perfect for a midweek meal!
 
 ### Recipe instruction
 

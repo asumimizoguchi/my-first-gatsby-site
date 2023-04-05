@@ -5,9 +5,8 @@ slug: crema-catalana
 Difficulty: Medium
 thumb: ../images/thumbs/crema-catalana.png
 featuredImg: ../images/featured/crema-catalana.png
+comment: Enjoy this sweet recipe for one of the oldest desserts in Europe. It requires very few ingredients!
 ---
-
-Enjoy this sweet recipe for one of the oldest desserts in Europe. It requires very few ingredients!
 
 ### Recipe instruction
 

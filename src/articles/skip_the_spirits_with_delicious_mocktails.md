@@ -2,7 +2,8 @@
 title: Skip the spirits with delicious mocktails
 stack: VIEW ARTICLE >
 slug: skip-the-spirits-with-delicious-mocktails
-thumb1: ../images/thumbs1/mojito-mocktail.png
+thumb: ../images/thumbs1/mojito-mocktail.png
+featuredImg: ../images/featured1/mojito-mocktail.png
 ---
 
 Having a cocktail party? Then why not serve up something just as special for those who don't drink alcohol but do want to join in on all the fun? After all, what cocktail party is complete without those incredible looking glasses of mixed fruits, bright colors and of course, the little umbrellas? Do your bit for the environment by ditching the plastic straws and get hold of some great looking alternatives made out of glass, metal, or even bamboo. Don't forget the classic cocktail glasses and cool tumblers to really bring these recipes to life.

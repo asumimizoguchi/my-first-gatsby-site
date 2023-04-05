@@ -2,7 +2,8 @@
 title: Let's hear it for carrots
 stack: VIEW ARTICLE >
 slug: lets-hear-it-for-carrots
-thumb1: ../images/thumbs1/heritage-carrots.png
+thumb: ../images/thumbs1/heritage-carrots.png
+featuredImg: ../images/featured1/heritage-carrots.png
 ---
 
 Let's hear it for the humble carrot! This sweet and healthy ‘everyday’ veg packs it all in. Great flavor, fantastic color, and if you're one for believing the old story, they can even help you to see better in the dark.
