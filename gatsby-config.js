@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/my-first-gatsby-site",
   /* Your site config here*/
   plugins: [
     `gatsby-transformer-remark`,
