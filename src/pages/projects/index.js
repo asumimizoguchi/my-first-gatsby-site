@@ -40,7 +40,7 @@ export default function Projects({ data }){
 export const query = graphql`
 
 query ProjectsPage {
-  projects: allMarkdownRemark(sort: {frontmatter: {title: ASC}}) {
+  projects: allMarkdownRemark(sort: {frontmatter: {title: ASC}} filter: {fileAbsolutePath: {regex: "/(projects)/"}}) {
       nodes {
         frontmatter {
           slug

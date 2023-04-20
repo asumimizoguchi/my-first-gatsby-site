@@ -19,7 +19,7 @@ export default function Articles({ data }){
                     <Link to = {"/articles/" + article.frontmatter.slug} key={article.id}>
                         <div>
                             <h3>{ article.frontmatter.title }</h3>
-                            {/* <Img fluid={article.frontmatter.thumb.childImageSharp.fluid} /> */}
+                            <Img fluid={article.frontmatter.thumb.childImageSharp.fluid} /> 
                             <p>{ article.frontmatter.stack }</p>
                         </div>
                     </Link>
@@ -35,7 +35,7 @@ export default function Articles({ data }){
 // export page query
 export const query = graphql`
 query ArticlesPage {
-    articles: allMarkdownRemark(sort: {frontmatter: {title: ASC}}) {
+    articles: allMarkdownRemark(sort: {frontmatter: {title: ASC}} filter: {fileAbsolutePath: {regex: "/(articles)/"}}) {
       nodes {
         frontmatter {
           slug

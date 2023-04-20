@@ -6,3 +6,16 @@
     margin-top: 60px;
     color: rgb(111, 111, 111);
 }
+
+.projects {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 80px; 
+    margin: 80px 20px;
+    display:grid;
+}
+
+.projects p{
+    display:inline-block;
+    vertical-align: bottom;
+    color: rgba(0, 128, 100, 0.922);
+} 

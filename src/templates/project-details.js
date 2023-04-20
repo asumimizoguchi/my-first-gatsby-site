@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 
 export default function projectDetails({ data }) {
     const { html } = data.markdownRemark
-    const { title, Difficulty, comment, featuredImg } = data.markdownRemark.frontmatter
+    const { title, Difficulty, comment, featuredImg, Recipe } = data.markdownRemark.frontmatter
     
     return (
         <Layout>
@@ -18,6 +18,7 @@ export default function projectDetails({ data }) {
                     <Img fluid={featuredImg.childImageSharp.fluid} /> 
                 </div>
                 <div className={styles.html} dangerouslySetInnerHTML={{ __html: html }} />
+                <h5>{Recipe}</h5>
             </div>
         </Layout>
     )
