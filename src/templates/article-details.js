@@ -12,7 +12,6 @@ export default function articleDetails({ data }) {
         <Layout>
             <div className={styles.details}>
                 <h2>{title}</h2>
-                <h3>{Difficulty}</h3>
                 <div className={styles.featured}>            
                     <Img fluid={featuredImg.childImageSharp.fluid} /> 
                 </div>

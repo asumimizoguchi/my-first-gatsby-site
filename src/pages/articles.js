@@ -11,12 +11,13 @@ export default function Articles({ data }){
     const contact = data.contact.siteMetadata.contact
 
     return (      
+
         <Layout>
         <div>
             <h1 className={styles.ars}>Articles</h1>
             <div className={styles.projects}>
                 {articles.map(article => (
-                    <Link to = {"/articles/" + article.frontmatter.slug} key={article.id}>
+                    <Link to = {"/projects/" + article.frontmatter.slug} key={article.id}>
                         <div>
                             <h3>{ article.frontmatter.title }</h3>
                             <Img fluid={article.frontmatter.thumb.childImageSharp.fluid} /> 
